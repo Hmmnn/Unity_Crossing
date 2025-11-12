@@ -1,0 +1,14 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:VisualElement name="PopUpPanel" style="width: 80%; height: 80%; left: 10%; top: 10%; background-image: url(&apos;project://database/Assets/UI/2DSimpleUIPack/Sprites/ui-panels.png?fileID=313643200&amp;guid=84873522082196348b931e3f46de09e9&amp;type=3#ui-panels_0&apos;); -unity-text-align: upper-left; display: flex;">
+        <ui:Label text="Game Over" display-tooltip-when-elided="true" name="TitleText" style="-unity-font: url(&apos;project://database/Assets/UI/Fonts/Galmuri11-Bold.ttf?fileID=12800000&amp;guid=269bdb6d3d2dd5b429d8dac7ac851c72&amp;type=3#Galmuri11-Bold&apos;); -unity-font-definition: none; font-size: 100px; -unity-text-align: middle-center; height: 40%; justify-content: flex-start; color: rgb(255, 255, 255); -unity-text-outline-width: 4px; -unity-text-outline-color: rgb(0, 0, 0); text-shadow: 4px 0 0 rgb(0, 0, 0); letter-spacing: 3px; word-spacing: -10px;" />
+        <ui:VisualElement name="Records" style="flex-direction: row; font-size: 80px; -unity-font: url(&apos;project://database/Assets/UI/Fonts/Galmuri11-Bold.ttf?fileID=12800000&amp;guid=269bdb6d3d2dd5b429d8dac7ac851c72&amp;type=3#Galmuri11-Bold&apos;); -unity-font-definition: none; justify-content: space-around;">
+            <ui:Label text="00" display-tooltip-when-elided="true" name="NewScore" />
+            <ui:Label text="00" display-tooltip-when-elided="true" name="BestScore" enable-rich-text="true" />
+        </ui:VisualElement>
+        <ui:VisualElement name="ScoreInfo" style="flex-direction: row; font-size: 70px; -unity-font: url(&apos;project://database/Assets/UI/Fonts/Galmuri11-Bold.ttf?fileID=12800000&amp;guid=269bdb6d3d2dd5b429d8dac7ac851c72&amp;type=3#Galmuri11-Bold&apos;); -unity-font-definition: none; justify-content: space-around;">
+            <ui:Label text="New Record" display-tooltip-when-elided="true" />
+            <ui:Label text="Best Record" display-tooltip-when-elided="true" />
+        </ui:VisualElement>
+        <ui:Label text="Press &apos;E&apos; to Start New Game" display-tooltip-when-elided="true" name="RestartInfo" style="-unity-font: url(&apos;project://database/Assets/UI/Fonts/Galmuri11-Bold.ttf?fileID=12800000&amp;guid=269bdb6d3d2dd5b429d8dac7ac851c72&amp;type=3#Galmuri11-Bold&apos;); -unity-font-definition: none; font-size: 50px; -unity-text-align: middle-center; height: 25%;" />
+    </ui:VisualElement>
+</ui:UXML>

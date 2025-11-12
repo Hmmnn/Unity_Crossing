@@ -1,0 +1,15 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:Template name="UIGameOver" src="project://database/Assets/UI/UIGameOver.uxml?fileID=9197481963319205126&amp;guid=2c6282c4fd005834b8a6f0bdc5507804&amp;type=3#UIGameOver" />
+    <ui:VisualElement name="ScoreLabel" style="flex-direction: row-reverse; height: 186px; width: 308px; left: 3%; align-items: center; justify-content: flex-end; -unity-font: none; letter-spacing: 0;">
+        <ui:Label text="00" display-tooltip-when-elided="true" name="ScoreFont" style="-unity-font: url(&apos;project://database/Assets/UI/Fonts/Galmuri11-Bold.ttf?fileID=12800000&amp;guid=269bdb6d3d2dd5b429d8dac7ac851c72&amp;type=3#Galmuri11-Bold&apos;); -unity-font-definition: none; font-size: 100px; -unity-font-style: normal; letter-spacing: 3px; word-spacing: 0; color: rgb(255, 255, 255); -unity-text-outline-width: 3px; -unity-text-outline-color: rgb(0, 0, 0); text-shadow: 8px 0 0 rgb(0, 0, 0);" />
+    </ui:VisualElement>
+    <ui:VisualElement name="LifeLabel" style="flex-direction: row; align-items: center; justify-content: flex-end; bottom: -70%; right: -82%; width: 300px; height: 100px;">
+        <ui:VisualElement name="Life1" style="background-color: rgba(255, 0, 0, 0); width: 100px; height: 100px; background-image: url(&apos;project://database/Assets/UI/2DSimpleUIPack/Examples/Graphics/ui-small-icons.png?fileID=-5390123095117124330&amp;guid=74f8b4d56cb24724abef2f7c526fd9ca&amp;type=3#ui-small-icons_0&apos;);" />
+        <ui:VisualElement name="Life2" style="width: 100px; height: 100px; background-color: rgba(85, 0, 255, 0); background-image: url(&apos;project://database/Assets/UI/2DSimpleUIPack/Examples/Graphics/ui-small-icons.png?fileID=-5390123095117124330&amp;guid=74f8b4d56cb24724abef2f7c526fd9ca&amp;type=3#ui-small-icons_0&apos;);" />
+        <ui:VisualElement name="Life3" style="width: 100px; height: 100px; background-color: rgba(255, 0, 222, 0); background-image: url(&apos;project://database/Assets/UI/2DSimpleUIPack/Examples/Graphics/ui-small-icons.png?fileID=-5390123095117124330&amp;guid=74f8b4d56cb24724abef2f7c526fd9ca&amp;type=3#ui-small-icons_0&apos;);" />
+    </ui:VisualElement>
+    <ui:VisualElement name="AttackLabel" style="align-items: center; bottom: auto; top: 50%; right: -82%; width: 300px; height: 100px; flex-direction: row-reverse; justify-content: flex-start;">
+        <ui:VisualElement name="Attackable" style="background-color: rgba(0, 0, 0, 0); width: 100px; height: 100px; right: 0; background-image: url(&apos;project://database/Assets/UI/2DSimpleUIPack/Sprites/ui-small-icons_edit.png?fileID=-200165291&amp;guid=0e1ec540d4208684f9204da73aac5158&amp;type=3#ui-small-icons_edit_2&apos;); align-items: flex-end;" />
+    </ui:VisualElement>
+    <ui:Instance template="UIGameOver" name="UIGameOver" picking-mode="Ignore" style="position: absolute; left: 0; top: 0; width: 100%; height: 100%; display: none;" />
+</ui:UXML>
